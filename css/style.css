@@ -1,0 +1,126 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* === Newsletter Subscribe Section CSS Start === */
+.newsletter-bg{
+	background-image: url(../img/news-1.jpg);
+	background-position:center;
+	background-size:cover;
+	background-color: #ddd;
+}
+.newsletter-bg h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.newsletter-bg {
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding-bottom: 180px;
+}
+.newsletter-bg:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: -1;
+  opacity: .3;
+}
+.newsletter-form input[type="email"] {
+  background: #333;
+  border: 1px solid #8e8582;
+  color: #fff;
+  padding: 12px 20px;
+  opacity: .6;
+  width: 76%;
+  border-radius: 50px;
+}
+.newsletter-form input[type="submit"] {
+  background: #34b79d;
+  color: #fff;
+  padding: 13px 30px;
+  border: none;
+  border-radius: 50px;
+  width: 23%;
+}
+.newsletter-form form {
+  margin-bottom: 14px;
+}
+.newsletter-text {
+  font-style: italic;
+}
+	/* ANother Section */
+.bordered-boxes {
+	overflow: hidden;
+	border-right: 1px solid #ededed;
+	margin-top: -160px;
+	position: relative;
+	z-index: 9;
+	background: #fff;
+}
+.single-bordered-box {
+  float: left;
+  width: 50%;
+  border-left: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding: 50px 80px;
+  text-align: center;
+  min-height: 315px;
+}
+.single-bordered-box h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.single-testimonial-box {
+  font-style: italic;
+  line-height: 1.6;
+}
+.author-name {
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-top: 20px;
+}
+.boxed-btn {
+	background: #000;
+	color: #fff;
+	padding: 8px 27px;
+	display: inline-block;
+	border-radius: 50px;
+	margin-top: 10px;
+	transition: .3s;
+}
+.boxed-btn:hover {
+	background: #fff;
+	color: #000;
+	border: 5px solid #999;
+}
+/* === Newsletter Subscribe Section CSS Stop === */
